@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Libro - Página 5 y 6</title>
+  
+  <!-- 
+    ¡IMPORTANTE! 
+    Volvemos a enlazar el MISMO archivo CSS.
+    No necesitamos escribir el estilo de nuevo. ¡Esa es la ventaja de CSS!
+  -->
+  <link rel="stylesheet" href="estilo-libro.css">
+<style>
+  img#elección{
+    width: 400px;
+    height: 175px;
+  }
+</style>
+</head>
+<body>
+
+  <!-- La estructura es idéntica, solo cambia el contenido -->
+  <div class="libro-abierto">
+    
+    <!-- PÁGINA IZQUIERDA -->
+    <div class="pagina izquierda">
+      <p>Al terminar el entrenamiento se acerca el dt del equipo a guido y a andrés y con voz exigente les dice... " Ustedes son los mejores, latima que solo uno se va a poder quedar"
+        Al oír esto guido y andrés se pusieron emotivos y muy tristes por que los dos querian quedar en el mismo equipo y ambos se dicen "suerte"
+      </p>
+      <p>-Okay chavos, y los seleccionados son Miguel, Pablo, y por último... Guido</p>
+      <p>En ese momento Andrés se fue de las instalaciones muy enojado y no se volvió a saber de Andrés durante 5 meses, Guido preocupado por saber dónde está  y poder hablar las cosas</p>
+      
+      <!-- 
+        Ahora tenemos un botón para VOLVER
+        Apunta de nuevo a 'index.html'
+      -->
+      <a href="proyecto.html" class="boton-navegacion anterior">
+        &larr; Anterior
+      </a>
+      
+      <!-- Número de página -->
+      <div style="position: absolute; bottom: 10px; left: 30px; color: #999;">Página 5</div>
+    </div>
+    
+    <!-- PÁGINA DERECHA -->
+    <div class="pagina derecha">
+      <h1>¿Andrés o Pika?</h1>
+      <p>5 meses despupés se descubré una nueva joya en las fuerzas básicas llamado Andres, o con su apodo en el nuevo equipo de chilindrines de jaletris apodado "Pika"</p>
+      <p>Andres volvió pero ahora más fuerte, mas alto y mucho mejor en técnica, ahora es más rapido y mas habilidoso con el balón</p>
+      <p>Llega el sabado y juega los zaponeros de toextihuacán contra los chilindrines de jaletris</p>
+ <img id="elección" src="https://www.shutterstock.com/image-photo/business-woman-front-two-roads-600nw-311651225.jpg" alt="">
+      
+      <!-- 
+        Este enlace "#" no va a ningún lado, 
+        es un marcador de posición para tu próxima página.
+      -->
+      <a href="proyecto4.html" class="boton-navegacion siguiente">
+        Siguiente &rarr;
+      </a>
+      
+      <!-- Número de página -->
+      <div style="position: absolute; bottom: 10px; right: 30px; color: #999;">Página 6</div>
+    </div>
+    
+  </div>
+
+</body>
+</html>

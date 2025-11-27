@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Libro - Página 3 y 4</title>
+  
+  <!-- 
+    ¡IMPORTANTE! 
+    Volvemos a enlazar el MISMO archivo CSS.
+    No necesitamos escribir el estilo de nuevo. ¡Esa es la ventaja de CSS!
+  -->
+  <link rel="stylesheet" href="estilo-libro.css">
+<style>
+  img#Amigos{
+    width: 400px;
+    height: 200px;
+  }
+</style>
+<style>
+  img#pasillo{
+    width: 400px;
+height: 200px;
+  }
+</style>
+</head>
+<body>
+
+  <!-- La estructura es idéntica, solo cambia el contenido -->
+  <div class="libro-abierto">
+    
+    <!-- PÁGINA IZQUIERDA -->
+    <div class="pagina izquierda">
+      <h1>Amigos y enemigos</h1>
+      <p>Ese mismo día terminando el entrenamiento se fueron juntos por que resulta que sus mamás eran amigas, llegando a la casa llega algo inesperado</p>
+      <p>Andrés decidió romper la tensión y se acerco a guido</p>
+      
+      -Oye guido, vaya que eres muy bueno en el fútbol, te imaginaba peor
+      
+      
+      -JAJAJAJA el que es chingón es chingónmmi andy, tu también juegas muy bien la verdad
+    
+    
+      -Oye y si en lugar de que estemos peleados nos volvemos buenos compañeros
+ 
+ 
+      -Claro</p>
+      <img id="Amigos" src="https://img.freepik.com/vector-gratis/ilustracion-dibujos-animados-amigos-dibujados-mano_52683-117798.jpg?w=360" alt="">
+      
+    
+      
+      <!-- 
+        Ahora tenemos un botón para VOLVER
+        Apunta de nuevo a 'index.html'
+      -->
+      <a href="proyecto.html" class="boton-navegacion anterior">
+        &larr; Anterior
+      </a>
+      
+      <!-- Número de página -->
+      <div style="position: absolute; bottom: 10px; left: 30px; color: #999;">Página 3</div>
+    </div>
+    
+    <!-- PÁGINA DERECHA -->
+    <div class="pagina derecha">
+      <h1>El último</h1>
+      <p>Llega el ultimo día de visorias y tanto andrés como guido estaban muy emocionados </p>
+      <p>el dt: Bueno chavos llegó el ultimo día y quiero que den todo de ustedes por que ya tenbemos varios ojos en alguno</p>
+      <p>Al escuchar eso guido y andres se miraron y se dijeron... "A darlo todo hermano"</p>
+      <img id="pasillo" src="https://media.istockphoto.com/id/1405057333/es/foto/corredor-del-estadio-de-fútbol.jpg?s=612x612&w=0&k=20&c=EM76xc9j0u2SQLkpmTBRb5Zdq4aTq93LvWXdRZRlkeA=" alt="">
+      
+      <!-- 
+        Este enlace "#" no va a ningún lado, 
+        es un marcador de posición para tu próxima página.
+      -->
+      <a href="proyecto3.html" class="boton-navegacion siguiente">
+        Siguiente &rarr;
+      </a>
+      
+      <!-- Número de página -->
+      <div style="position: absolute; bottom: 10px; right: 30px; color: #999;">Página 4</div>
+    </div>
+    
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mas sobre mi</title>
+  
+  <!-- 
+    ¡IMPORTANTE! 
+    Esta línea conecta este archivo HTML con nuestro archivo CSS.
+    Ambos archivos deben estar en la misma carpeta.
+  -->
+  <link rel="stylesheet" href="estilo-libro.css">
+  <style>
+    img#yamal{
+      width: 375px;
+      height: 190px;
+    }
+  </style>
+<style>
+  img#america{
+    width: 375px;
+    height: 190px;
+  }
+</style>
+</head>
+
+<body>
+
+  <!-- 
+    Este es el contenedor principal que nuestro CSS
+    reconocerá como "el libro".
+  -->
+  <div class="libro-abierto">
+
+    
+    <!-- PÁGINA IZQUIERDA -->
+    <div class="pagina izquierda">
+      <div class="info-perfil">
+      <img src="../mitarjeta.png" alt="">
+    </div>
+      <h1>El futbol</h1>
+      <p>Había una vez un niño llamado guido y otro llamado andrés que les gustaba mucho el fut</p>
+      <p>ellos se llevaban mal por que uno siempre le hacía faltas y lo lastimaba .</p>
+      <p>y siempre se hacian caras y siemprre se odiaron</p>
+      <img id="yamal" src="https://www.futboltotal.com.mx/wp-content/uploads/2024/04/barcelona-pide-que-se-repita-el-clasico-por-errores-del-var--1024x678.jpg" alt="">
+
+      <!-- Número de página -->
+      <div style="position: absolute; bottom: 10px; left: 30px; color: #999;">Página 1</div>
+    </div>
+    
+    <!-- PÁGINA DERECHA -->
+    <div class="pagina derecha">
+      <p>un día los dos fueron a visorias de el equipo de primera división llamado los zaponeros de toextihuacán</p>
+      <p>los dos tuvieron que hacer equipo en el interescuadras y tuvieron buena comunicación</p>
+      <p>aunque todavía se siguieron haciendo caras y se seguían cayendo mal</p>
+      <p>pero llegó un día que todos tenian que dar lo mejor de cada uno por que era de los últimos días de visorias y todos eran muy buenos</p>
+      <img id="america" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQunFD_w2wqZv4I_sHYa9ZAAO0YsW8P-QlJog&s" alt="">
+      
+      <!-- 
+        ¡AQUÍ ESTÁ LA NAVEGACIÓN!
+        Es un simple enlace <a>. No requiere JavaScript.
+        Le dice al navegador: "Cuando me hagan clic, carga el archivo 'pagina-3-4.html'".
+      -->
+      <a href="proyecto2.html" class="boton-navegacion siguiente">
+        Siguiente &rarr; <!-- &rarr; es el código HTML para una flecha -->
+      </a>
+      
+      <!-- Número de página -->
+      <div style="position: absolute; bottom: 10px; right: 30px; color: #999;">Página 2</div>
+    </div>
+    
+  </div>
+
+</body>
+</html>
